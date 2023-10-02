@@ -1,0 +1,17 @@
+.cardItem__article{
+  margin: 16px;
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  // &_img{
+  //   border-radius: 4px;
+  //   object-fit: contain;
+  //   object-position: center;
+  // }
+  &_detail{
+    display: flex;
+    flex-direction: column;
+    flex: 2 1 auto;
+    
+  }
+}

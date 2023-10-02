@@ -1,4 +1,11 @@
-.header__navbar{
-  height: 40px;
+
+.nav__content{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 2% 4%;
+  gap: 4%;
+  // background-color: $primary-color;
+
 }
 
