@@ -6,14 +6,14 @@ export default function CardItem ({ item }) {
     <article key={item.id} className={styles.cardItem__article}>
       <Image className={styles.cardItem__article_img} src={item.picture} width={180} height={180} alt={item.title} />
       <div className={styles.cardItem__article_detail}>
-        <p>${item.price.amount}{
+        <p className={styles.detail_price}>${item.price.amount}{
         item.free_shipping &&
           <small> imagen carrito</small>
         }
         </p>
-        <p>{item.title}</p>
+        <p className={styles.detail_title}>{item.title}</p>
       </div>
-      <span>{item.state_name}</span>
+      <p className={styles.detail_location}>{item.state_name}</p>
     </article>
   )
 }

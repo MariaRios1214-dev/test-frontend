@@ -9,18 +9,18 @@ html,
 body {
   max-width: 100vw;
   overflow-x: hidden;
-  .main {
+  background: $color-EEEEEE;
+  main {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    padding: 6rem;
-    min-height: 100vh;
+    padding: 0 120px;
   }
 }
 
 header{
-  background-color:  $color-FFE600;
+  background:  $color-FFE600;
   margin: auto;
 }
 
@@ -34,6 +34,11 @@ img{
   border-radius: 4px;
   object-fit: contain;
   object-position: center;
+}
+
+input[type="text"]{
+  border: none;
+  outline: none;
 }
 
 @media (prefers-color-scheme: dark) {
